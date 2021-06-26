@@ -1,4 +1,6 @@
-### CappacitaDev Project
+## CappacitaDev Project
+
+#### Curso de programação de IAs Conversacionais da comunidade Cappacita by `Smarkio`.
 
 <p align="center">
   <img src= "./img/Cappacita.png" width="100%">
@@ -10,6 +12,7 @@
 - CSS
 - JS
 - JSON
+- CHATBOT
 
 ---
 
