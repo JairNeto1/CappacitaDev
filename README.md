@@ -15,7 +15,7 @@
 - CHATBOT
 
 <a href='https://prime.altubots.com/chats/cappacita/b3869563899d9599d91147982ab3207c/index.html
-/' target='_blank'>Click aqu para testar **Chatbote**</a>
+/' target='_blank'>->Click aqu para testar **Chatbote**</a>
 
 ---
 
