@@ -1,5 +1,5 @@
 const express = require('express')
-const dataBase = require('./dataBase')
+const dataBase = require('./database/databaseMysql')
 const bodyParser = require('body-parser')
 
 const app = express()
@@ -14,8 +14,8 @@ app.get('/pokemons/:id', (req, res) => {
   res.send(dataBase.mostrarPokemon(req.params.id))
 })
 
-app.post('/pokemons', (req, res) => {
-  const pokemon = dataBase.salvarPokemons({
+app.post('/pokemons', async (req, res) => {
+  const pokemon = await dataBase.salvarPokemons({
     nome: req.body.nome,
     tipo: req.body.tipo,
     fraqueza: req.body.fraqueza,
