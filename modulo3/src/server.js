@@ -6,12 +6,12 @@ const app = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.get('/pokemons', (req, res) => {
-  res.send(dataBase.mostrarPokemons())
+app.get('/pokemons', async (req, res) => {
+  res.send(await dataBase.mostrarPokemons())
 })
 
-app.get('/pokemons/:id', (req, res) => {
-  res.send(dataBase.mostrarPokemon(req.params.id))
+app.get('/pokemons/:id', async (req, res) => {
+  res.send(await dataBase.mostrarPokemon(req.params.id))
 })
 
 app.post('/pokemons', async (req, res) => {
