@@ -18,8 +18,8 @@
 - Postman
 - Altu
 
-<a href='https://prime.altubots.com/chats/cappacita/b3869563899d9599d91147982ab3207c/index.html
-/' target='_blank'>->Click aqu para testar **Chatbote**</a>
+<a href='https://github.com/JairNeto1/CappacitaDev/wiki/Final-Project
+/' target='_blank'>->Projeto Final **Netflix-clone**</a>
 
 ---
 
